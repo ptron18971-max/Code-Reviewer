@@ -4,6 +4,9 @@ AI Code Reviewer is a FastAPI and Vite application for reviewing source files, i
 
 The project is designed as a live demonstration of a code-review system with a verification boundary. The model can suggest a change, but the application only presents an autonomous repair as successful after the generated or supplied tests pass in a separate execution environment.
 
+For a workflow walkthrough and file-by-file responsibility map, see
+[`SYSTEM_OVERVIEW.md`](SYSTEM_OVERVIEW.md).
+
 ## Architecture Overview
 
 ```mermaid
